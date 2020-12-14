@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Astro</string>
 
     <!--Menu options-->
@@ -16,4 +17,5 @@
 
     <!--Account Fragment-->
     <string name="account_frag_title">Account</string>
+
 </resources>

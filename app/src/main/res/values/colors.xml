@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#060606</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorSecondary">#FFFFFF</color>
@@ -14,4 +15,5 @@
     <color name="black60">#99060606</color>
     <color name="black5">#0D060606</color>
     <color name="skeleton">#4DC5C5C5</color>
+
 </resources>
