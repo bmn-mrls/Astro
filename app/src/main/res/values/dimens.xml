@@ -15,6 +15,6 @@
     <dimen name="small_margin">8dp</dimen>
     <dimen name="tiny_margin">4dp</dimen>
 
-    <dimen name="act_splash_logo_width">100dp</dimen>
+    <dimen name="act_splash_logo_size">20dp</dimen>
 
 </resources>
