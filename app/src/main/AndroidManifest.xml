@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Astro"
         tools:ignore="AllowBackup">
-        <activity android:name=".splash.views.SplashActivity"
+        <activity
+            android:name=".splash.views.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".home.views.HomeActivity" />
     </application>
 
 </manifest>

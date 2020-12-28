@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
 import com.bmnmrls.astro.databinding.ActivitySplashBinding
+import com.bmnmrls.astro.home.views.HomeActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -32,7 +33,8 @@ class SplashActivity : AppCompatActivity() {
                     Unit
 
                 override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
-                    //TODO Implement the Home Activity call
+                    HomeActivity.launch(this@SplashActivity)
+                    finish()
                 }
             }
         )
