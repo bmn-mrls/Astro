@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
 import com.bmnmrls.astro.databinding.ActivitySplashBinding
-import com.bmnmrls.astro.home.views.HomeActivity
+import com.bmnmrls.astro.home.views.activity.HomeActivity
 
 class SplashActivity : AppCompatActivity() {
 

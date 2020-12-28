@@ -1,4 +1,4 @@
-package com.bmnmrls.astro.home.views
+package com.bmnmrls.astro.home.views.activity
 
 import android.content.Context
 import android.content.Intent
