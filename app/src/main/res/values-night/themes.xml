@@ -13,9 +13,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
-    <style name="SplashTheme" parent="Theme.Astro">
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:background">@color/colorPrimary</item>
+    <style name="SplashScreenTheme" parent="Theme.Astro">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
 </resources>
