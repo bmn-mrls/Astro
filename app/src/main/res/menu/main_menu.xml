@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/home_menu_selector"
+        android:title="@string/menu_home" />
+
+    <item
+        android:id="@+id/savedFragment"
+        android:enabled="true"
+        android:icon="@drawable/saved_menu_selector"
+        android:title="@string/menu_saved" />
+
+    <item
+        android:id="@+id/accountFragment"
+        android:enabled="true"
+        android:icon="@drawable/account_menu_selector"
+        android:title="@string/menu_account" />
+
+</menu>
