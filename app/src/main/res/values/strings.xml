@@ -4,7 +4,7 @@
 
     <!--Menu options-->
     <string name="menu_home">Home</string>
-    <string name="menu_favorite_photos">Favorites</string>
+    <string name="menu_saved">Saved</string>
     <string name="menu_account">Account</string>
 
     <!--Home Fragment-->
@@ -12,8 +12,8 @@
     <string name="home_frag_last_photos_title">The last 10 amazing photos</string>
     <string name="home_frag_see_more_button">See more</string>
 
-    <!--Favorites Fragment-->
-    <string name="favorites_frag_title">Favorites</string>
+    <!--Saved Fragment-->
+    <string name="saved_frag_title">Saved</string>
 
     <!--Account Fragment-->
     <string name="account_frag_title">Account</string>
