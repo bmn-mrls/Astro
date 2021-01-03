@@ -85,6 +85,12 @@ dependencies {
     androidTestImplementation "com.google.dagger:hilt-android-testing:$versions.daggerHiltAndroidVersion"
     kaptAndroidTest "com.google.dagger:hilt-android-compiler:$versions.daggerHiltAndroidVersion"
 
+    //Retrofit and Gson
+    implementation "com.squareup.retrofit2:retrofit:$versions.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$versions.retrofitVersion"
+    implementation("com.squareup.okhttp3:okhttp:$versions.okHttpVersion")
+    implementation("com.squareup.okhttp3:logging-interceptor:$versions.okHttpVersion")
+
     //Debugging
     implementation "com.jakewharton.timber:timber:$versions.timberVersion"
 
