@@ -4,6 +4,7 @@
     package="com.bmnmrls.astro">
 
     <application
+        android:name=".app.AstroApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_astro"
         android:label="@string/app_name"
