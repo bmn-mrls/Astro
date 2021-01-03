@@ -6,6 +6,9 @@ plugins {
 }
 apply from: '../dependencies.gradle'
 
+def localProperties = new Properties()
+localProperties.load(new FileInputStream(rootProject.file("local.properties")))
+
 android {
     compileSdkVersion versions.compileSdk
     buildToolsVersion versions.buildTools
@@ -23,10 +26,14 @@ android {
     buildTypes {
         debug {
             minifyEnabled false
+            buildConfigField "String", "BASE_URL", localProperties["BASE_URL"]
+            buildConfigField "String", "API_KEY", localProperties["API_KEY"]
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         release {
             minifyEnabled false
+            buildConfigField "String", "BASE_URL", localProperties["BASE_URL"]
+            buildConfigField "String", "API_KEY", localProperties["API_KEY"]
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
