@@ -1,4 +1,4 @@
-package com.bmnmrls.astro.home.views.fragments
+package com.bmnmrls.astro.saved.views.fragments
 
 import androidx.fragment.app.Fragment
 import com.bmnmrls.astro.R

@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/savedFragment"
-        android:name="com.bmnmrls.astro.home.views.fragments.SavedFragment"
+        android:name="com.bmnmrls.astro.saved.views.fragments.SavedFragment"
         android:label="SavedFragment"
         tools:layout="@layout/fragment_saved" />
 
     <fragment
         android:id="@+id/accountFragment"
-        android:name="com.bmnmrls.astro.home.views.fragments.AccountFragment"
+        android:name="com.bmnmrls.astro.account.views.fragments.AccountFragment"
         android:label="AccountFragment"
         tools:layout="@layout/fragment_account" />
 
