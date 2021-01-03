@@ -15,4 +15,8 @@
     <dimen name="small_margin">8dp</dimen>
     <dimen name="tiny_margin">4dp</dimen>
 
+    <!--Home Fragment-->
+    <dimen name="home_frag_main_apod_corner_radius">16dp</dimen>
+    <dimen name="home_frag_main_apod_height">280dp</dimen>
+
 </resources>

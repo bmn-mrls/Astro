@@ -9,7 +9,7 @@
 
     <!--Home Fragment-->
     <string name="home_frag_title">Home</string>
-    <string name="home_frag_last_photos_title">The last 10 amazing photos</string>
+    <string name="home_frag_last_apods_title">The last 10 amazing photos</string>
     <string name="home_frag_see_more_button">See more</string>
 
     <!--Saved Fragment-->
