@@ -42,16 +42,16 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
 
-    //Android Supports
+    // Android Supports
     implementation "androidx.core:core-ktx:$versions.coreVersion"
 
-    //Architecture Components
+    // Architecture Components
     implementation "androidx.room:room-runtime:$versions.roomVersion"
     implementation "androidx.room:room-ktx:$versions.roomVersion"
     kapt "androidx.room:room-compiler:$versions.roomVersion"
     testImplementation "androidx.arch.core:core-testing:$versions.archCompomentVersion"
 
-    //Dependency Injection (Hilt)
+    // Dependency Injection (Hilt)
     implementation "com.google.dagger:hilt-android:$versions.daggerHiltAndroidVersion"
     implementation "com.google.dagger:hilt-android-testing:$versions.daggerHiltAndroidVersion"
     implementation "androidx.hilt:hilt-common:$versions.daggerHiltVersion"
@@ -61,10 +61,10 @@ dependencies {
     androidTestImplementation "com.google.dagger:hilt-android-testing:$versions.daggerHiltAndroidVersion"
     kaptAndroidTest "com.google.dagger:hilt-android-compiler:$versions.daggerHiltAndroidVersion"
 
-    //Debugging
+    // Debugging
     implementation "com.jakewharton.timber:timber:$versions.timberVersion"
 
-    //Unit Test
+    // Unit Test
     testImplementation "junit:junit:$versions.junitVersion"
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$versions.mockitoKotlinVersion"
     testImplementation "org.mockito:mockito-inline:$versions.mockitoInlineVersion"
