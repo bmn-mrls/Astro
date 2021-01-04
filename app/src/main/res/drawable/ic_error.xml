@@ -4,21 +4,21 @@
     android:viewportWidth="180"
     android:viewportHeight="180">
     <path
-        android:fillColor="#060606"
+        android:fillColor="#FFFFFF"
         android:fillType="evenOdd"
         android:pathData="M74,73m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
         android:strokeWidth="1"
-        android:strokeColor="#00000000" />
+        android:strokeColor="#FFFFFF" />
     <path
-        android:fillColor="#060606"
+        android:fillColor="#FFFFFF"
         android:fillType="evenOdd"
         android:pathData="M106,73m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
         android:strokeWidth="1"
-        android:strokeColor="#00000000" />
+        android:strokeColor="#FFFFFF" />
     <path
-        android:fillColor="#060606"
+        android:fillColor="#FFFFFF"
         android:fillType="evenOdd"
         android:pathData="M54.308,108.193C70.167,101.398 81.931,98 89.6,98C97.278,98 109.306,101.406 125.682,108.219C127.086,108.803 128,110.174 128,111.694C128,112.6 127.265,113.335 126.358,113.335C126.136,113.335 125.916,113.29 125.712,113.203C109.683,106.337 97.779,102.904 90,102.904C82.221,102.904 70.317,106.337 54.288,113.203C53.455,113.56 52.49,113.174 52.133,112.34C52.045,112.136 52,111.916 52,111.694C52,110.17 52.908,108.793 54.308,108.193Z"
         android:strokeWidth="1"
-        android:strokeColor="#00000000" />
+        android:strokeColor="#FFFFFF" />
 </vector>
