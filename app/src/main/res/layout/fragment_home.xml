@@ -2,10 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <data>
-
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,11 +30,11 @@
 
         <include
             android:id="@+id/apodView"
-            layout="@layout/apod_item_layout"
+            layout="@layout/main_apod_layout"
             android:layout_width="0dp"
             android:layout_height="@dimen/home_frag_main_apod_height"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintEnd_toEndOf="@id/endGuideline"
+            app:layout_constraintStart_toStartOf="@id/startGuideline" />
 
         <TextView
             android:id="@+id/lastApodsTitleTextView"
