@@ -8,6 +8,7 @@
     <dimen name="normal_text_size">16sp</dimen>
     <dimen name="small_text_size">14sp</dimen>
     <dimen name="tiny_text_size">12sp</dimen>
+    <dimen name="super_tiny_text_size">10sp</dimen>
 
     <dimen name="huge_margin">40dp</dimen>
     <dimen name="big_margin">32dp</dimen>
@@ -15,6 +16,8 @@
     <dimen name="default_margin">16dp</dimen>
     <dimen name="small_margin">8dp</dimen>
     <dimen name="tiny_margin">4dp</dimen>
+
+    <dimen name="apod_item_height">90dp</dimen>
 
     <!--Home Fragment-->
     <dimen name="home_frag_main_apod_corner_radius">16dp</dimen>
