@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <dimen name="main_apod_title_text_size">32sp</dimen>
     <dimen name="huge_text_size">24sp</dimen>
     <dimen name="big_text_size">20sp</dimen>
     <dimen name="long_text_size">18sp</dimen>
@@ -17,6 +18,8 @@
 
     <!--Home Fragment-->
     <dimen name="home_frag_main_apod_corner_radius">16dp</dimen>
+    <dimen name="home_frag_main_apod_title_height">72dp</dimen>
+    <dimen name="home_frag_main_apod_description_height">56dp</dimen>
     <dimen name="home_frag_main_apod_height">280dp</dimen>
 
 </resources>
