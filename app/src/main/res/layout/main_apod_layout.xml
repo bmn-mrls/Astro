@@ -23,8 +23,7 @@
         android:foreground="?android:attr/selectableItemBackground"
         android:onClick="@{view -> listener.onClick(view)}"
         app:cardBackgroundColor="@color/black60"
-        app:cardCornerRadius="@dimen/home_frag_main_apod_corner_radius"
-        app:cardUseCompatPadding="true">
+        app:cardCornerRadius="@dimen/home_frag_main_apod_corner_radius">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
