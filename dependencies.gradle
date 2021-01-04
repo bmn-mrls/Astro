@@ -28,6 +28,9 @@ ext.versions = [
         roomVersion             : '2.2.6',
         archCompomentVersion    : '2.1.0',
 
+        // Glide
+        glideVersion            : '4.11.0',
+
         // Dependency Injection (Hilt)
         daggerHiltAndroidVersion: '2.28.3-alpha',
         daggerHiltVersion       : '1.0.0-alpha02',
