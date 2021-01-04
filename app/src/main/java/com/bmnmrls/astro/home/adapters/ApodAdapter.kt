@@ -25,6 +25,12 @@ class ApodAdapter @Inject constructor() : RecyclerView.Adapter<ApodAdapter.ViewH
 
     override fun getItemCount(): Int = apods.size
 
+    fun addApods(apods: List<Apod>) {
+        this.apods.clear()
+        this.apods.addAll(apods)
+        notifyDataSetChanged()
+    }
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         private val binding: ApodItemLayoutBinding = ApodItemLayoutBinding.bind(view)
