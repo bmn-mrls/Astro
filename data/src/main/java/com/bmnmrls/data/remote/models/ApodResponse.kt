@@ -8,7 +8,7 @@ data class ApodResponse(
     @SerializedName("date")
     val date: String? = null,
     @SerializedName("explanation")
-    val explanation: String? = null,
+    val description: String? = null,
     @SerializedName("hdurl")
     val hdUrl: String? = null,
     @SerializedName("media_type")

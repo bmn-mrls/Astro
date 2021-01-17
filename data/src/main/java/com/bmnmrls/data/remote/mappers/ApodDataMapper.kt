@@ -9,12 +9,10 @@ class ApodDataMapper() : Transformer<ApodResponse, Apod>() {
     override fun transform(value: ApodResponse): Apod = Apod(
         value.copyright.orEmpty(),
         value.date.orEmpty(),
-        value.explanation.orEmpty(),
+        value.description.orEmpty(),
         value.hdUrl.orEmpty(),
         value.mediaType.orEmpty(),
-        value.serviceVersion.orEmpty(),
         value.title.orEmpty(),
         value.url.orEmpty()
     )
-
 }
