@@ -64,5 +64,4 @@ class NetworkModule {
         private const val CONNECT_TIMEOUT: Long = 5
         private const val API_KEY = "api_key"
     }
-
 }

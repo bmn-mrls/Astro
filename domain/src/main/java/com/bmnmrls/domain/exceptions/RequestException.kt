@@ -9,5 +9,4 @@ class RequestException : Exception {
     constructor(message: String? = "", cause: Throwable) : super(message, cause)
 
     constructor(cause: Throwable) : super(cause)
-
 }

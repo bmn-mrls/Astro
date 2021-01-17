@@ -11,5 +11,4 @@ abstract class Transformer<T1, T2> {
     fun reverseTransformCollection(values: List<T2>) = values.map { t2 ->
         reverseTransform(t2)
     }
-
 }
