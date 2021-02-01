@@ -81,7 +81,7 @@ dependencies {
 
     // Unit Test
     testImplementation "junit:junit:$versions.junitVersion"
-    testImplementation "com.google.truth:truth:$versions.truthVersion"
+    testImplementation "com.willowtreeapps.assertk:assertk-jvm:$versions.assertkVersion"
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$versions.mockitoKotlinVersion"
     testImplementation "org.mockito:mockito-inline:$versions.mockitoInlineVersion"
     testImplementation "org.robolectric:robolectric:$versions.robolectricVersion"

@@ -1,23 +1,24 @@
 package com.bmnmrls.data.remote.mappers
 
+import assertk.assertThat
+import assertk.assertions.isEqualTo
 import com.bmnmrls.data.remote.models.ApodResponse
 import com.bmnmrls.domain.models.Apod
-import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 
-class ApodDataMapperTest {
+class ApodRemoteMapperTest {
 
-    private val apodDataMapper: ApodDataMapper by lazy { ApodDataMapper() }
+    private val apodRemoteMapper: ApodRemoteMapper by lazy { ApodRemoteMapper() }
 
     @Test
     fun `when apod's response has valid values, apod will have valid values`() {
-        assertThat(apodDataMapper.transform(apodResponse))
+        assertThat(apodRemoteMapper.transform(apodResponse))
             .isEqualTo(apod)
     }
 
     @Test
     fun `when apod's response has null values, apod will set empty values`() {
-        assertThat(apodDataMapper.transform(nullApodResponse))
+        assertThat(apodRemoteMapper.transform(nullApodResponse))
             .isEqualTo(emptyApod)
     }
 
