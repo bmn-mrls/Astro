@@ -2,9 +2,9 @@ package com.bmnmrls.domain
 
 sealed class Failure {
 
-    class GenericError(val exception: Exception) : Failure()
+    data class GenericError(val exception: Exception) : Failure()
 
-    object CustomError : Failure()
+    data class CustomError(val message: String) : Failure()
 
     object NetworkConnection : Failure()
 }
