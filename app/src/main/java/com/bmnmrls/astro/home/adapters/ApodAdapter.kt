@@ -36,11 +36,7 @@ class ApodAdapter @Inject constructor() : RecyclerView.Adapter<ApodAdapter.ViewH
         private val binding: ApodItemLayoutBinding = ApodItemLayoutBinding.bind(view)
 
         fun bind(item: Apod, listener: ((Apod) -> Unit)?) = with(binding) {
-            this.apod = item
-            listener?.let { this.listener = View.OnClickListener { _ -> it(item) } }
-            executePendingBindings()
+            // Init view
         }
-
     }
-
 }

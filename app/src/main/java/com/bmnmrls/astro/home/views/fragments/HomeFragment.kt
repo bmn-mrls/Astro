@@ -39,6 +39,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         super.onViewCreated(view, savedInstanceState)
 
         // Init observers
+        setupApodsList()
     }
 
     override fun onDestroyView() {
@@ -46,4 +47,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         _binding = null
     }
 
+    private fun setupApodsList() {
+        // Init apod list
+    }
 }
