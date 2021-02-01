@@ -19,5 +19,4 @@ class AstroApplication : Application() {
             Timber.plant(Timber.DebugTree())
         }
     }
-
 }

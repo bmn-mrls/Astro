@@ -36,5 +36,4 @@ class HomeActivity : AppCompatActivity() {
     companion object {
         fun launch(from: Context) = from.startActivity(Intent(from, HomeActivity::class.java))
     }
-
 }

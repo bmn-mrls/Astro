@@ -16,5 +16,4 @@ class SplashActivity : AppCompatActivity() {
         HomeActivity.launch(this@SplashActivity)
         finish()
     }
-
 }
